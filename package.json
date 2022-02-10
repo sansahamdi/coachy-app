@@ -1,0 +1,24 @@
+{
+	"name": "server-side",
+	"version": "1.0.0",
+	"description": "server node js",
+	"main": "server",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.13"
+	},
+	"dependencies": {
+		"bcrypt": "^5.0.1",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"express-validator": "^6.13.0",
+		"jsonwebtoken": "^8.5.1",
+		"pg": "^8.7.1",
+		"sequelize": "^6.6.5"
+	}
+}
