@@ -1,0 +1,81 @@
+.couverture-image {
+  display: flex;
+  width: 100%;
+  height: 24%;
+  background-image: url("./background.jpg");
+  background-size: cover;
+  position: relative; /* Add relative positioning */
+}
+
+.container-coachDetail {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align children to the top */
+  align-items: center;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  background-image: url("./background.jpg");
+  border-radius: 60px;
+  border: 2px solid white;
+  position: relative; /* Add relative positioning */
+  margin-top: -50px; /* Adjust this value to control the overlap */
+  align-self: center; /* Center horizontally within the container */
+  margin-bottom: 8px;
+  border-radius: 112px;
+  border: 2px solid var(--white, #fffbfb);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.image-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bio-coach {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.attribute-coach {
+  margin-top: 20px;
+  color: #a5a5a5;
+   font-family:'Inter'
+;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.value-coach {
+  width: 90%;
+  margin-top: 10px;
+  color: #171717;
+  text-align: center;
+   font-family:'Inter'
+;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-backIcon{
+  width:45px;
+  height:45px ;
+  border-radius: 50px;
+  background-color: #f9f7f7c6;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

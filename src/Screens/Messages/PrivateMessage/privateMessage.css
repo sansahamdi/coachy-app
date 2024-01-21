@@ -1,0 +1,144 @@
+.container-private-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  align-items: center;
+}
+
+.container-class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  flex: 0.5;
+  position: fixed;
+  background-color: #fff;
+}
+.header-private-message {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  align-items: center;
+}
+
+.name-user-private-message {
+  color: var(--Black, #3f3c3c);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.customInput-conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  height: 10%;
+  color: #777272;
+  padding: 10px;
+  border: 1px solid #a3a3a3; /* Add a top border */
+  padding: 0.5px;
+  /* border-radius: 10px; */
+}
+
+.message-input {
+  /* flex: 1; */
+  width: 70%;
+  border: none;
+  padding: 8px;
+  outline: none; /* Supprime la bordure d'accentuation sur le focus */
+  color: var(--grey-1, #bcbaba);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.send-button {
+  background-color: #5d54a0; /* Couleur du bouton (vert dans cet exemple) */
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Rend le bouton circulaire */
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Change la couleur du bouton lorsqu'il est survolé */
+.send-button:hover {
+  background-color: #5d54a0;
+}
+
+.message-txt-me {
+  color: white;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+  word-wrap: break-word;
+  max-width: 100%;
+  text-align: left;
+  width: 80%;
+}
+
+.allMessagesPrivate-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 90%;
+  flex: 1;
+  margin-top: 110px;
+  margin-bottom: 90px;
+}
+
+.message-container-me {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.message-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  height: auto;
+  background-color: #5d54a0;
+  border-radius: 16px;
+  word-wrap: break-word;
+}
+.message-content-destination {
+  display: flex;
+  justify-content: flex-start;
+  width: 70%;
+  height: auto;
+  background-color: #e5e5e5;
+  border-radius: 16px;
+  word-wrap: break-word;
+}
+
+.message-container-destination {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  stroke: var(--grey-1, #bcbaba);
+}
+.message-txt-destination {
+  color: rgb(104, 98, 98);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+  word-wrap: break-word;
+  max-width: 100%;
+  text-align: left;
+  width: 80%;
+}

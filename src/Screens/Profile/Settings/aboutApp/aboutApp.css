@@ -1,0 +1,20 @@
+
+
+.txt-description {
+    line-height: 1.6;
+    font-weight: 500;    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-weight: 500;    
+    margin-bottom: 10px;
+    line-height: 1.6;
+
+}
+
+

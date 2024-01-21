@@ -1,0 +1,211 @@
+.container-homeClient {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+    align-items: center;
+    /* width: 90%; */
+  }
+  
+  .reservation {
+    width: 90%;
+    height: 94px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-2, rgba(119, 114, 114, 0.6));
+    background: var(--white, #fffbfb);
+    box-shadow: -12px 6px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    flex-direction: column;
+  }
+  .welcome-page {
+    text-align: left;
+    width: 90%;
+    color: #3a3838;
+    margin-top: 20px;
+      /* font-family:'Inter' */
+;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .look-coach {
+    margin-top: 7px;
+  }
+  
+  .day {
+    text-align: left;
+    width: 90%;
+    color: #3a3838;
+    margin-top: 20px;
+      /* font-family:'Int:er' */
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .line-check {
+    flex:1;
+    width: 99%;
+    max-height: 7px;
+    background-color: #519750;
+    border-radius: 10px;
+  }
+  
+  .rectangle-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 5px;
+    height: 60%;
+  }
+  
+  .text {
+    color: #000;
+      font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    align-self: center;
+  }
+  .time {
+    align-self: center;
+    flex: 0.5;
+   
+  
+  }
+  
+  .detail-user {
+    margin-left: 20px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex: 2;
+  }
+  
+  .image-user {
+    width: 45px;
+    height: 45px;
+    border-radius: 43px;
+    /* background-image: url("./MalekPhoto.jpg"); */
+    background-size: cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .style-user-detail {
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 20px  ;
+    text-align: left;
+  }
+  .text-name {
+    color: #000;
+      font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+    /* margin-top: 20px; */
+  }
+  
+  .text-location {
+    color: var(--grey-2, rgba(119, 114, 114, 0.6));
+      font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+  }
+  .text-checkReservation {
+    color: var(--grey-2, rgba(119, 114, 114, 0.6));
+      font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0;
+  }
+  .text-pendingReservation {
+    color: #d18326;
+      font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0;
+  }
+  
+  .line-pending {
+    flex: 1;
+    width: 99%;
+    max-height: 7px;
+    background-color: #d18326;
+    border-radius: 10px;
+  }
+  .line-refused {
+    flex: 1;
+    width: 99%;
+    max-height: 7px;
+    background-color: rgb(148, 1, 1), 98, 38;
+    border-radius: 10px;
+  }
+  
+  .noReservation {
+    width: 90%;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-2, rgba(119, 114, 114, 0.6));
+    background: var(--white, #fffbfb);
+    box-shadow: -12px 6px 4px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+  }
+  .available {
+    display: flex;
+    width: 75%;
+    height: 30px;
+    background-color: #5d54a0;
+    align-self: center;
+    border-radius: 15px;
+    justify-content: center;
+    flex-direction: row;
+    flex: 2;
+  }
+  .see-coachs {
+    color: var(--grey-1, #dcdcdc);
+    text-align: center;
+    /* font-family:; */
+    font-size: 90%;    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+  }
+  
+  .icon {
+    align-self: center;
+    flex: 0.5;
+    height: 100%;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .container-bookings{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

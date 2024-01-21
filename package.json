@@ -1,24 +1,60 @@
 {
-	"name": "server-side",
-	"version": "1.0.0",
-	"description": "server node js",
-	"main": "server",
-	"scripts": {
-		"start": "nodemon server.js"
-	},
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"nodemon": "^2.0.13"
-	},
-	"dependencies": {
-		"bcrypt": "^5.0.1",
-		"cors": "^2.8.5",
-		"dotenv": "^10.0.0",
-		"express": "^4.17.1",
-		"express-validator": "^6.13.0",
-		"jsonwebtoken": "^8.5.1",
-		"pg": "^8.7.1",
-		"sequelize": "^6.6.5"
-	}
+  "name": "coachy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/android": "^5.5.0",
+    "@capacitor/camera": "^5.0.7",
+    "@capacitor/cli": "^5.5.0",
+    "@capacitor/core": "^5.5.0",
+    "@capacitor/geolocation": "^5.0.6",
+    "@react-leaflet/core": "^2.1.0",
+    "@react-navigation/native": "^6.1.9",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.5.1",
+    "i18next": "^23.7.6",
+    "leaflet": "^1.9.4",
+    "leaflet-routing-machine": "^3.2.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.5.0",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "5.0.1",
+    "react-spring": "^9.7.3",
+    "stream-chat": "^8.13.1",
+    "stream-chat-react": "^10.14.1",
+    "styled-components": "^6.1.1",
+    "universal-cookie": "^6.1.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }

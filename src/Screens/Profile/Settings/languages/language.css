@@ -1,0 +1,32 @@
+.choix-Language{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:100%  ;
+    margin-bottom: 40px;
+}
+
+.container-choix-language{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:90%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: 1px;
+    background-color: rgba(255, 255, 255, 0.503);
+    border-radius: 10px;
+}
+
+.img-language{
+    width: 32px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.txt-lng{
+    color: #5D54A0;
+    font-weight: 600;
+}

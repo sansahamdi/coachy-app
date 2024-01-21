@@ -1,0 +1,70 @@
+.input-card {
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #77727299;
+  margin-top: 20px;
+  color: var(--grey-2, rgba(119, 114, 114, 0.6));
+  font-family: ABeeZee;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px; /* 100% */
+  padding-left: 10px;
+}
+.text-payment {
+  color: var(--grey-2, rgba(119, 114, 114, 0.6));
+  font-family: ABeeZee;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 10px;
+  line-height: 13px; /* 100% */
+}
+
+.btn-pay {
+    margin-top: 30px;
+  align-self: center;
+  width: 55%;
+  height: 35px;
+  border-radius: 10px;
+  background: var(--Purple-1, #5d54a0);
+  color: white;
+}
+.conatiner-detail-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-pay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.container-choose-Method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.iconStyle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #bcbaba;
+  strokeWidth: 1px;
+  border-radius: 8%;
+}
+
+.tick-place{
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    top:10px
+}

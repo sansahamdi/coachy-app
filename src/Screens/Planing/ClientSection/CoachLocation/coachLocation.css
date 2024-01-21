@@ -1,0 +1,106 @@
+.map-container {
+  height: 64%;
+  position: relative;
+  z-index: 1;
+}
+.hole-map {
+  height: 100%;
+  position: relative;
+}
+.conatiner-detail{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.txt-train{
+  margin: 4px;
+  color: var(--grey-2, rgba(119, 114, 114, 0.60));
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.user-detail-location {
+  height: max-content   ;
+  width: auto;
+  border-radius: 25px;
+  margin-top: -25px;
+  background-color: rgb(244, 243, 243);
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 1px solid rgb(97, 93, 93); /* You can change 'black' to the color you want */
+}
+.header-detail-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.img-user {
+  display: flex;
+  width: 73px;
+  height: 75px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 75px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.train-name-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.design-icons {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70px; /* Note the unit 'px' for width */
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.descirption-coach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.bioCoach {
+  color: #727272;
+  /* Text */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn-forMoreDetail{
+  margin-bottom: 100px;
+  width: 80%;
+  height: 50px;
+  border-radius: 20px;
+  background: #5D54A0;
+  color: var(--white, #FFFBFB);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}

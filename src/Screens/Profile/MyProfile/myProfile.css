@@ -1,0 +1,66 @@
+.couverture-image {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    position: relative; /* Add relative positioning */
+}
+
+.container {
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start; /* Align children to the top */
+    display: flex; /* This line is redundant and can be removed */
+    align-items: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    border-radius: 60px;
+    border: 2px solid white;
+    position: relative; /* Add relative positioning */
+    margin-top: -50px; /* Adjust this value to control the overlap */
+    align-self: center; /* Center horizontally within the container */
+    margin-bottom: 8px;
+}
+.image-container{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-info{
+    width: 90%;
+    height: 100%;
+    text-align: left;
+    overflow: 'scroll'
+}
+
+.session-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 15px;
+    align-items: center;
+}
+
+.line{
+    align-self: center;
+    width: 106%;
+    height: 0.5px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: -12px;
+}
+.info{
+    width: 100%;
+    margin-left: 20px;
+      font-weight: 500;
+}
